@@ -181,6 +181,7 @@ class SingleLinkedList {
   }
 }
 
+// 两个有序的链表合并
 const mergeSortedLists = (listA, listB) => {
   if(!listA) {
     return listB;
